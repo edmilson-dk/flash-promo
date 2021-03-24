@@ -1,8 +1,12 @@
+import Routes from "./routes";
+import GlobalStyles from "./styles/globalsStyles";
+
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <>
+      <GlobalStyles />
+      <Routes />
+    </>
   );
 }
 
