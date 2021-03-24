@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import { ButtonWrapper } from "src/styles/components/ControlSetTimeButton";
+import { ButtonWrapper } from  "src/styles/components/ControlSetTimeButton";
 
 type ControlSetTimeButtonProps = {
   icon: ReactNode;
@@ -10,7 +10,7 @@ type ControlSetTimeButtonProps = {
 function ControlSetTimeButton({ icon, onClick }: ControlSetTimeButtonProps) {
   return (
     <ButtonWrapper type="button" onClick={onClick}>
-      <span>{ icon}</span>
+      <span>{ icon }</span>
     </ButtonWrapper>
   )
 }
