@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
     --dark-light: #03181d;
     --gray: #485a5f;
     --yellow: #eab900;
+    --white: #f1f1f1;
   }
 
   *,
@@ -26,6 +27,10 @@ const GlobalStyles = createGlobalStyle`
   button {
     border: none;
     cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 
