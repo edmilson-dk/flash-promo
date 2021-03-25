@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const HomeWrapper = styled.main`
   width: 100%;
   height: 100vh;
-  padding: 2.5rem;
+  padding: 2.5rem 0;
   background-color: var(--dark);
 `;
 
