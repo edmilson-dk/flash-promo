@@ -17,6 +17,15 @@ function Home() {
   
   const { addToStorage } = useStorage();
 
+  function saveValues() {
+    addToStorage({
+      time: workTime,
+      interval: intervalTime,
+      cicles: ciclesCount
+    },
+    '@flashPomoTime');
+  }
+
   return (
     <HomeWrapper>
       <Container>
@@ -50,13 +59,7 @@ function Home() {
           </HomeBox>
           <ButtonSaveAndStart 
             route="/start" 
-            onClick={() => addToStorage({
-                time: workTime,
-                interval: intervalTime,
-                cicles: ciclesCount
-              },
-              '@flashPomoTimes'
-            )}
+            onClick={saveValues}
           />
         </HomeContainer>
       </Container>
