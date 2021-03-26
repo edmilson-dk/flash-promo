@@ -8,9 +8,9 @@ export const ButtonSaveAndStartWrapper = styled.button`
   border-radius: 10px;
 
   > a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   > a strong {
