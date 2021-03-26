@@ -8,9 +8,9 @@ type ButtonSaveAndStartProps = {
   onClick: () => void;
 }
 
-function ButtonSaveAndStart({ route }: ButtonSaveAndStartProps) {
+function ButtonSaveAndStart({ route, onClick }: ButtonSaveAndStartProps) {
   return ( 
-    <ButtonSaveAndStartWrapper>
+    <ButtonSaveAndStartWrapper onClick={onClick}>
       <Link to={route}>
         <strong>Salvar e iniciar</strong>
         <span>
