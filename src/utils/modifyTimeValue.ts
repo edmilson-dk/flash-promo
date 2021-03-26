@@ -5,11 +5,8 @@ type modifiyTimeValueProps = {
 }
 
 function modifiyTimeValue({ state, setState, isDec }: modifiyTimeValueProps) {
-  if (state > 0) {
-    !isDec 
-      ? setState(state+1)
-      : setState(state-1);
-  }
+  if (!isDec && state <= 60) setState(state+1);
+  if (isDec && state > 0 ) setState(state-1); 
 }
 
 export default modifiyTimeValue;
