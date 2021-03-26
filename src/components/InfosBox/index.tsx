@@ -8,18 +8,23 @@ import {
   InfosBoxButtonsWrapper
 } from "src/styles/components/InfosBox"
 
-function InfosBox() {
+type InfosBoxProps = {
+  title: string;
+  onClickPlay: () => void;
+}
+
+function InfosBox({ title , onClickPlay }: InfosBoxProps) {
   return (
     <InfosBoxWrapper>
       <InfosBoxContainer>
-        <InfosBoxTitle>Trabalho</InfosBoxTitle>
+        <InfosBoxTitle>{ title }</InfosBoxTitle>
         <InfosBoxDots>
           <span></span>
           <span></span>
           <span></span>
         </InfosBoxDots>
         <InfosBoxButtonsWrapper>
-          <button>
+          <button onClick={onClickPlay}>
               <span>
                 <FiPlay size="100%"/>
               </span>
