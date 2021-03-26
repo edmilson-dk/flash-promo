@@ -1,5 +1,5 @@
 function useStorage() {
-  function addToStorage(item: object, key: string) {
+  function addToStorage(item: any, key: string) {
     window.localStorage.setItem(
       key,
       JSON.stringify(item)
@@ -14,7 +14,7 @@ function useStorage() {
 
   function getToStorage(key: string) {
     const value = window.localStorage.getItem(key);
-    return value;
+    return value ? JSON.parse(value) : {};
   }
 
   return {
