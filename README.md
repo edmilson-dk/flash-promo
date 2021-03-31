@@ -18,6 +18,16 @@ O Flash Promo é um simples cronômetro inspirado na técnica de estudos pomodor
 <a id="layout"></a>
 ## Layout
 
+### Home 
+
+![Home page](https://github.com/edmilson-dk/flash-promo/blob/main/.github/home.png)
+
+### Counter page
+
+![Counter page](https://github.com/edmilson-dk/flash-promo/blob/main/.github/count-work.png)
+
+![Counter page](https://github.com/edmilson-dk/flash-promo/blob/main/.github/count-pause.png)
+
 <a id="execute"></a>
 ## Executando o front-end
 
