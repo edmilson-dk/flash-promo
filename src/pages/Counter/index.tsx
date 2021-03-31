@@ -50,7 +50,7 @@ function Counter() {
   }
 
   useEffect(() => {
-    if (isActive && finishedCicles <= cicles) {
+    if (isActive && finishedCicles < cicles) {
       if (!isIntervalActive && time > 0) {
         setTimeout(() => setTime(time -1), 1000);
       }
@@ -81,10 +81,14 @@ function Counter() {
             minuteRight={fullTime.minuteRight}
             secondLeft={fullTime.secondLeft}
             secondRight={fullTime.secondRight}
+            isPause={isIntervalActive}
           />
           <InfosBox 
-            title="Trabalho"
+            title={isIntervalActive ? 'Pausa' : 'Trabalho'}
+            isPause={isIntervalActive}
             onClickPlay={() => setIsActive(true)}
+            ciclesCount={cicles}
+            ciclesFinishedCount={finishedCicles}
           />
         </CounterContainer>
       </Container>
