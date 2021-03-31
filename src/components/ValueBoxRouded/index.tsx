@@ -5,17 +5,19 @@ type ValueBoxRoudedProps = {
   minuteRight: number;
   secondLeft: number;
   secondRight: number;
+  isPause: boolean;
 }
 
 function ValueBoxRouded({ 
   minuteLeft,
   minuteRight,
   secondLeft,
-  secondRight
+  secondRight,
+  isPause,
 }: ValueBoxRoudedProps) {
   return (
     <ValueBoxRoudedWrapper>
-      <ValueBoxRoudedContainer>
+      <ValueBoxRoudedContainer isPause={isPause}>
         <div>
           <strong>{ minuteLeft }</strong>
           <strong>{ minuteRight }</strong>
