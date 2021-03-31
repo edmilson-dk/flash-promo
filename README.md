@@ -66,8 +66,8 @@ yarn start
 <a id="online"></a>
 ## Veja a aplicação funcionando
 
-Caso você não queira executar os passos de instalação manualmente, para sua sorte fiz o deploy da aplicação, e você pode testa ela no link abaixo.
+Caso você não queira executar os passos de instalação manualmente, para sua sorte fiz o deploy da aplicação, e você pode testa-la no link abaixo.
 
-[Aplicação aqui]()
+[Aplicação aqui](https://flash-promo.vercel.app/)
 
 Creator with 💙 by [Edmilson Jesus](https://www.linkedin.com/in/edmilson-jesus-4128711b5)
