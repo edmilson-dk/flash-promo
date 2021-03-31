@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Flash Promo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Flash Promo é um simples cronômetro inspirado na técnica de estudos pomodoro, o flash promo permite que você defina quantos minutos você quer de foco, geralmente é 25 minutos, também quantos minutos você quer de pausa e quantos ciclos devem ocorrer.
 
-## Available Scripts
+# Tópicos 
 
-In the project directory, you can run:
+- [Tecologias](#techs)
+- [Layout](#layout)
+- [Rodando a aplicação](#execute)
+- [Página online](#online)
 
-### `yarn start`
+<a id="techs"></a>
+## Tecnologias e bibliotecas utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a id="layout"></a>
+## Layout
 
-### `yarn test`
+<a id="execute"></a>
+## Executando o front-end
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar a frnt-end em sua máquina siga os passos abaixo.
 
-### `yarn build`
+- 1 Clone meu repositório em sua máquina 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone git@github.com:edmilson-dk/flash-promo.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# entre na pasta
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd flash-promo
+```
 
-### `yarn eject`
+- 2 Após o passo acima, instale as dependências necessárias, para isso é preciso que você tenha o [NodeJS](https://nodejs.org/en/) instalado em sua máquina.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# ou com yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+yarn install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- 4 Feito isso é hora de executar o projeto, para isso execute o comando abaixo.
 
-## Learn More
+```sh
+npm start 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# ou com yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+yarn start
+```
+
+<a id="online"></a>
+## Veja a aplicação funcionando
+
+Caso você não queira executar os passos de instalação manualmente, para sua sorte fiz o deploy da aplicação, e você pode testa ela no link abaixo.
+
+[Aplicação aqui]()
+
+Creator with 💙 by [Edmilson Jesus](https://www.linkedin.com/in/edmilson-jesus-4128711b5)
