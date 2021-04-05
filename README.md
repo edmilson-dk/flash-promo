@@ -31,7 +31,7 @@ O Flash Promo é um simples cronômetro inspirado na técnica de estudos pomodor
 <a id="execute"></a>
 ## Executando o front-end
 
-Para executar a frnt-end em sua máquina siga os passos abaixo.
+Para executar a front-end em sua máquina siga os passos abaixo.
 
 - 1 Clone meu repositório em sua máquina 
 
